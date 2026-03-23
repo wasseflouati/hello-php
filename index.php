@@ -1,5 +1,5 @@
 <?php
-echo "Hello World, version 26";
+echo "Hello World, version 27";
 $con = mysqli_init();
 $sslCa = __DIR__ . '/DigiCertGlobalRootCA.crt.pem';
 mysqli_ssl_set($con,NULL,NULL,$sslCa, NULL, NULL);
