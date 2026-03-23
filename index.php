@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-echo "Hello World, version 30<br>";
+echo "Hello World, version 31<br>";
 
 $con = mysqli_init();
 $sslCa = __DIR__ . '/DigiCertGlobalRootCA.crt.pem';
@@ -13,7 +13,7 @@ if (!mysqli_real_connect(
     $con,
     "hbd-server.mysql.database.azure.com",
     "zgnrykaexx",
-    "QRcUNiXHn$f0O3Gl",
+    'QRcUNiXHn$f0O3Gl',
     "hbd-database",
     3306,
     NULL,
